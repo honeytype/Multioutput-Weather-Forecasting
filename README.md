@@ -1,4 +1,4 @@
-# 🌦️ Multioutput Weather Forecasting
+# 🌦️ Multioutput Weather Forecasting using Hybrid Model for Extreme Weather Prediction
 Proyek ini mengembangkan model **Deep Learning hybrid GRU-LSTM** untuk **memprediksi beberapa variabel cuaca secara multioutput**, yaitu suhu minimum, suhu maksimum, curah hujan, dan kecepatan angin.  
 Dataset yang digunakan merupakan data cuaca harian dari **Stasiun Klimatologi BMKG Jawa Barat (Bogor)** untuk mendukung analisis dan peringatan dini cuaca ekstrem.
 
@@ -12,7 +12,7 @@ Proyek ini bertujuan untuk meningkatkan akurasi peramalan cuaca pada setiap vari
 Model ini dibandingkan dengan model **GRU tunggal** dan **LSTM tunggal** untuk memperoleh performa terbaik berdasarkan metrik evaluasi seperti **MAE**, **RMSE**, dan **R² Score**.
 
 ---
-## 🚀 Cara Menjalankan Proyek
+## 🚀 Cara Menjalankan
 1. Buka **[Google Colab](https://colab.research.google.com/)**.  
 2. Unggah salah satu file notebook:  
    - `GRU.ipynb`  
